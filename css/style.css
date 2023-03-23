@@ -1,0 +1,503 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2.4rem 4rem 1.5rem 4rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .logo {
+    height: 2.8rem;
+  }
+  
+  /* NAV Section */
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+  }
+  
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #03b4c6;
+  }
+  
+  .main-nav-link.cta-login:link,
+  .main-nav-link.cta-login:visited {
+    border-left: 10px;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    border: solid 1px #41698d;
+    border-radius: 3px;
+    color: #41698d;
+  }
+  
+  /* Drop Down */
+  .fas {
+    padding: 0 1rem;
+  }
+  
+  /* Drop Down positioning */
+  .main-nav ul li {
+    position: relative;
+  }
+  
+  .main-nav ul li:hover .dropdown-menu,
+  .main-nav ul li:active .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: -2rem;
+    top: 100%;
+    background-color: #ffffff;
+    border: none;
+  }
+  
+  /* Drop Down Words */
+  .dropdown-menu ul,
+  .collapse ul {
+    padding: 1.3rem 1.5rem 1.3rem 1.5rem;
+    list-style: none;
+    display: block;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li,
+  .collapse ul li {
+    font-size: 1.4rem;
+    padding: 1.3rem 0;
+  }
+  
+  .dropdown-menu ul li a,
+  .collapse ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+  
+  /* HERO Section*/
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 10rem 10rem 10rem;
+    height: 76rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(65, 106, 141, 0.35),
+        rgba(65, 106, 141, 0.35)
+      ),
+      url("../webp/homeBG.webp");
+    background-size: cover;
+  }
+  
+  .hero-header {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 4.5rem;
+    color: #ffffff;
+    padding-bottom: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+  }
+  
+  .hero-text {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .hero-button:link,
+  .hero-button:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #03b4c6;
+    color: #ffffff;
+    padding: 1.2rem 2.4rem;
+    border-radius: 3px;
+  }
+  
+  a .hero-button {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Features Section*/
+  .why-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: start;
+    padding-bottom: 3rem;
+  }
+  
+  .heading-why {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: 0.2rem;
+    color: #03b4c6;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
+  .section-why-paragraph {
+    padding: 0 15rem 3rem 15rem;
+    text-align: center;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  
+  .why-card-img {
+    height: 250px;
+    padding-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .why-card-text {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+    padding: 0 2rem;
+  }
+  
+  .why-our-story {
+    display: block;
+    text-align: center;
+    padding: 4rem 0 9rem 0;
+  }
+  
+  .why-our-story-button:link,
+  .why-our-story-button:visited {
+    color: #ffffff;
+    background-color: #03b4c6;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    border-radius: 3px;
+    font-size: 1.6rem;
+  }
+  
+  /* Who We Serve Section */
+  .who-we-serve {
+    background-color: #41698d;
+  }
+  
+  .who-we-serve-container {
+    padding: 7rem 0;
+  }
+  
+  .who-we-serve-h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 3.2rem;
+    margin: 0;
+  }
+  
+  .who-we-serve-p {
+    padding: 0 9rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  
+  /* Services section */
+  .services-h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+    color: #41698d;
+    text-align: center;
+    padding: 7rem 0 2rem 0;
+  }
+  
+  .services-text {
+    padding: 0 12rem 5rem 12rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.2rem;
+  }
+  
+  .services-text span {
+    color: #03b4c6;
+    font-weight: bold;
+  }
+  
+  /*services card */
+  .services-container-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding-bottom: 9rem;
+  }
+  .services-card {
+    border-radius: 8px;
+    border: solid 3px transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  
+  .services-card:hover {
+    transform: translateY(-0.2rem);
+    border: solid 3px #bb4790;
+  }
+  
+  .services-card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  
+  .service-card-text {
+    text-align: center;
+    text-decoration: none;
+    padding: 0 13rem 2rem 13rem;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+  }
+  
+  .learn {
+    display: block;
+    color: #41698d;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .learn:hover {
+    text-decoration: none;
+  }
+  
+  /* Testimonials Section*/
+  .section-testimonials {
+    background-color: #f5f5f5;
+  }
+  
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 1.33fr 2fr;
+    padding: 5rem 0;
+  }
+  
+  .testimonials-promotion {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 1rem 8rem 1rem 2rem;
+  }
+  
+  .testimonials-promotion span {
+    color: #03b4c6;
+  }
+  
+  /* Testimonial Cards */
+  
+  .testimonials-card {
+    background-color: #41698d;
+    color: #ffffff;
+    margin: 0 1rem;
+  }
+  
+  .inner-card {
+    padding: 4rem;
+    height: 100%;
+  }
+  
+  .testimonials-card-text {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.5;
+    padding-bottom: 2.5rem;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonials-logo {
+    width: 10.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  
+  .people {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .position {
+    font-family: "Roboto";
+    color: #03b4c6;
+    display: block;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  
+  /* CTA Section */
+  .section-cta {
+    background-color: #03b4c6;
+    color: #ffffff;
+  }
+  
+  .cta-inner {
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+    padding: 0 0 2rem 0;
+  }
+  
+  .cta-text {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    padding: 0 0 3.5rem 0;
+  }
+  
+  .cta-button:link,
+  .cta-button:visited {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Arial", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #41698d;
+    padding: 1.5rem 3rem;
+    border-radius: 3px;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 5rem 17.45rem;
+    column-gap: 15rem;
+  }
+  
+  .footer-subheading {
+    color: #ffffff;
+    font-family: "Arial", Sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 3.4rem;
+    line-height: 1;
+  }
+  
+  .footer-subheading::after {
+    padding-top: 0.4rem;
+    content: "";
+    display: block;
+    border-bottom: solid 3px #41698d;
+    width: 3.1rem;
+  }
+  
+  .footer-list {
+    list-style: none;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Arial", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+    transition: all 0.3s;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    color: #4c4c4c;
+  }
+  
+  /*  */
+  .footer-year {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line {
+    align-self: center;
+    border-top: solid 1px #ffffff;
+    width: 105%;
+  }
+  
+  .copyright {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    padding: 2.25rem 0 1rem 0;
+  }

@@ -1,0 +1,71 @@
+/*
+Fonts used: 
+Roboto, Arial, Bebas Neue
+Colors
+  #ffffff, #03b4c6, #41698d, #bb4790, #000000
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage o user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #000000;
+    overflow-x: hidden;
+  }
+  
+  .blue-hov:link,
+  .blue-hov:visited {
+    color: #333;
+  }
+  
+  /* Drop down */
+  .blue-hov:hover,
+  .blue-hov:active {
+    color: #03b4c6;
+  }
+  
+  .section {
+    padding: 0 10.4rem;
+  }
+  
+  /* Mobile */
+  .btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  .icon-mobile-nav {
+    height: 2.8rem;
+    width: 2.8rem;
+    background-color: #e6e6e6;
+  }
+  .btn-mobile-nav:link,
+  .btn-mobile-nav:visited {
+    color: #000000;
+  }
+  .btn-mobile-nav:hover,
+  .btn-mobile-nav:active {
+    color: #03b4c6;
+    fill: none;
+  }
+  
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
