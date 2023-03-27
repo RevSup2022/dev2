@@ -14,7 +14,8 @@ btnNavEl.addEventListener("click", function () {
 });
 
 // Slides/C
-let slideIndex = 1;
+let slideIndex = 1,
+  time = 5000;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -45,7 +46,6 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-//
 // showSlides();
 
 // function showSlides() {
