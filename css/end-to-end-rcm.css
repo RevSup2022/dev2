@@ -1,0 +1,61 @@
+.blue-end-to-end {
+  color: #03b4c6 !important;
+}
+
+.section-legend {
+  padding: 0 4rem;
+}
+
+.legend {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.legend a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-end-to-end-h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  padding-bottom: 3rem;
+}
+.header-end-to-end-h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.paragraph-end-to-end {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  letter-spacing: ;
+  text-align: left;
+}
+
+.end-to-end-inner {
+  display: flex;
+}
+
+/* SECTION STEPS */
+.section-perks {
+  background-color: #0b4b7d;
+}
+
+.perks-header {
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.perks-inner {
+  padding: 5rem 9rem;
+}
