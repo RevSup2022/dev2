@@ -165,15 +165,22 @@ body {
 .dropdown-menu ul li {
   font-size: 1.4rem;
   padding: 1.3rem 0;
-  width: 165px;
 }
 
-.dropdown-menu ul li a,
-.collapse ul li a {
+.dropdown-menu ul li a {
   text-decoration: none;
   color: #000000;
   font-family: "Roboto";
   font-weight: 500;
+  overflow-wrap: normal;
+}
+
+/* custom */
+.solutions-dropdown {
+  width: 16.5rem;
+}
+.resources-dropdown {
+  width: 11.2rem;
 }
 
 /* Footer Section */
@@ -250,6 +257,10 @@ body {
 
 .section {
   padding: 0 10rem;
+}
+
+.section-sp-end-to-end {
+  padding: 0 16rem;
 }
 
 .header-buffer {

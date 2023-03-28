@@ -43,9 +43,14 @@
   display: flex;
 }
 
-/* SECTION STEPS */
+/* SECTION PERKS */
+.perks-outer {
+  padding: 5rem 11rem;
+}
+
 .section-perks {
   background-color: #0b4b7d;
+  margin-bottom: 5rem;
 }
 
 .perks-header {
@@ -54,8 +59,119 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 3.2rem;
+  letter-spacing: 2px;
+  padding-bottom: 3rem;
 }
 
 .perks-inner {
-  padding: 5rem 9rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  justify-content: space-between;
+}
+
+.perks-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 3rem 2rem;
+}
+
+.perks-icon {
+  padding-bottom: 2rem;
+  color: #0b4b7d;
+  height: 5rem;
+  width: 5rem;
+}
+
+.perks-card-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+
+.perks-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.85;
+  text-align: center;
+}
+
+/* STEPS SECTION */
+.step-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 8rem;
+}
+
+.steps-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-align: center;
+
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #41698d;
+  margin-bottom: 5rem;
+}
+
+.step-text-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.step-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.85;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+  /* height: 60%; */
+
+  /* 60% of parent's width */
+  padding-bottom: 60%;
+  /* 
+  background-color: #fdf2e9;
+  z-index: -2; */
+}
+
+/* .step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  z-index: -1;
+} */
+
+.step-img {
+  width: 15rem;
+  /* z-index:10; */
 }
