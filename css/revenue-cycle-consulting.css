@@ -1,3 +1,8 @@
+.revenue-section-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .header-revenue-cycle-consulting-h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -13,4 +18,13 @@
 }
 
 .paragraph-revenue-cycle-consulting {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.85;
+}
+
+.revenue-img {
+  width: 40rem;
+  padding: 2rem;
 }
