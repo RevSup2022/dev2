@@ -1,0 +1,11 @@
+@media screen and (max-width: 89.5em) {
+  .section {
+    padding: 0 9rem;
+  }
+}
+
+@media screen and (max-width: 88.3em) {
+  .section {
+    padding: 0 8rem;
+  }
+}
