@@ -8,4 +8,8 @@
   .section {
     padding: 0 7rem;
   }
+
+  .section-why-paragraph {
+    padding: 0 11.5rem 3rem 11.5rem;
+  }
 }
