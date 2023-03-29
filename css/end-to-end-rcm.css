@@ -17,6 +17,13 @@
   color: #000;
 }
 
+/* END-TO-END SECTION */
+.end-to-end-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
 .header-end-to-end-h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -34,13 +41,18 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.7;
-  letter-spacing: ;
+  line-height: 1.85;
   text-align: left;
 }
 
-.end-to-end-inner {
+.end-to-end-img-box {
   display: flex;
+  justify-content: end;
+}
+
+.end-to-end-img {
+  width: 40rem;
+  display: inline-block;
 }
 
 /* SECTION PERKS */
@@ -108,13 +120,22 @@
   row-gap: 8rem;
 }
 
+.step-text-box {
+  padding-bottom: 6.5rem;
+  border-bottom: solid #000 1px;
+}
+
+.step-text-box::after {
+  content: "";
+  padding-bottom: 6.5rem;
+}
+
 .steps-heading {
   font-family: "Roboto", sans-serif;
   font-size: 3.2rem;
   font-weight: bold;
   letter-spacing: 0.2rem;
   text-align: center;
-
   padding-bottom: 2rem;
   border-bottom: solid 1px #41698d;
   margin-bottom: 5rem;
@@ -140,6 +161,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 6.5rem;
+  border-bottom: solid #000 1px;
 }
 
 .step-img-box::before,
@@ -173,5 +196,6 @@
 
 .step-img {
   width: 15rem;
+
   /* z-index:10; */
 }
