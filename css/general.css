@@ -302,3 +302,23 @@ body {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+/* LEGEND */
+.blue-end-to-end {
+  color: #03b4c6 !important;
+}
+
+.section-legend {
+  padding: 0 4rem;
+}
+
+.legend {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.legend a {
+  text-decoration: none;
+  color: #000;
+}
