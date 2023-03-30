@@ -280,7 +280,6 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -304,7 +303,7 @@ body {
 }
 
 /* LEGEND */
-.blue-end-to-end {
+.blue-highlight {
   color: #03b4c6 !important;
 }
 

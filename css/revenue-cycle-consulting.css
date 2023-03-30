@@ -24,6 +24,11 @@
   line-height: 1.85;
 }
 
+.revenue-img-box {
+  display: flex;
+  justify-content: end;
+}
+
 .revenue-img {
   width: 40rem;
   padding: 2rem;
