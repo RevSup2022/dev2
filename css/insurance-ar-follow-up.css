@@ -1,0 +1,36 @@
+.insurance-card-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.insurance-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-hospital,
+.fa-chart-user {
+  font-size: 5rem;
+  color: #0f81b1;
+  padding-bottom: 1.5rem;
+}
+
+.insurance-card-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.insurance-card-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.85;
+  text-align: center;
+}
