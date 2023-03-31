@@ -314,8 +314,24 @@ body {
   margin-top: 9.8rem !important;
 }
 
+.section-padding-top {
+  padding-top: 5rem;
+}
+
+.section-padding-top-s {
+  padding-top: 7rem;
+}
+
 .section-padding-bottom {
   padding-bottom: 5rem;
+}
+
+.section-padding-bottom-s {
+  padding-bottom: 7rem;
+}
+
+.section-padding-bottom-m {
+  padding-bottom: 9rem;
 }
 
 .section-margin-bottom-s {
@@ -328,4 +344,9 @@ body {
 
 .section-margin-bottom-l {
   margin-bottom: 12rem;
+}
+
+/* Partners Section */
+.partners-section {
+  background-color: #f0f0f0;
 }
