@@ -1,25 +1,26 @@
-.insurance-card-box {
+.card-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  justify-items: center;
+  column-gap: 8rem;
 }
 
-.insurance-card {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
+/*  */
 .fa-hospital,
-.fa-chart-user {
+.fa-people-roof,
+.fa-users,
+.fa-arrow-trend-up {
   font-size: 5rem;
   color: #0f81b1;
   padding-bottom: 1.5rem;
 }
 
-.insurance-card-h {
+.card-h {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 600;
@@ -27,10 +28,90 @@
   text-align: center;
 }
 
-.insurance-card-p {
+.card-p {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.85;
   text-align: center;
+}
+
+/* OPENINGS SECTION */
+.section-opening {
+  height: 50rem;
+}
+
+.opening-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+/* Tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #0f81b1;
+  background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2rem 2.5rem;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f6fcff;
+  color: #0f81b1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f6fcff;
+  color: #0f81b1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 2rem;
+  border: 1px solid #0f81b1;
+  border-top: none;
+  background-color: #f6fcff;
+  color: #242424;
+}
+
+.tabcontent h3 {
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  padding-top: 2rem;
+  font-size: 2.2rem;
+  padding-bottom: 2.5rem;
+}
+
+.tabcontent a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.tabcontent p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
 }

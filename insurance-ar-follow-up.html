@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="css/queries.css" />
 
     <script defer src="js/script.js"></script>
+    <script defer src="js/opening.js"></script>
 
     <link
       rel="stylesheet"
@@ -142,40 +143,97 @@
         </div>
       </section>
 
-      <section class="section-sp">
-        <div class="insurance-card-box">
-          <div class="insurance-card">
+      <section class="section-sp section-margin-bottom-m">
+        <div class="card-box">
+          <div class="card">
+            <i class="fa-solid fa-people-roof"></i>
+            <h2 class="card-h">Paid family leave</h2>
+            <p class="card-p">
+              We encourage all parents to spend time with their children whether
+              or not they are the primary caregiver.
+            </p>
+          </div>
+          <div class="card">
             <i class="fa-solid fa-hospital"></i>
-            <h2 class="insurance-card-h">Comprehensive health coverage</h2>
-            <p class="insurance-card-p">
+            <h2 class="card-h">Comprehensive health coverage</h2>
+            <p class="card-p">
               We care about our team’s well being — like, a lot. That's why we
               offer premium health, dental, and vision.
             </p>
           </div>
-          <div class="insurance-card">
-            <i class="fa-solid fa-hospital"></i>
-            <h2 class="insurance-card-h">Comprehensive health coverage</h2>
-            <p class="insurance-card-p">
-              We care about our team’s well being — like, a lot. That's why we
-              offer premium health, dental, and vision.
+          <div class="card">
+            <i class="fa-solid fa-users"></i>
+            <h2 class="card-h">Team activities & offsites</h2>
+            <p class="card-p">
+              We value having fun and spending time as a team. Regular company
+              activities, meetups, and offsites help us stay connected.
             </p>
           </div>
-          <div class="insurance-card">
-            <i class="fa-solid fa-hospital"></i>
-            <h2 class="insurance-card-h">Comprehensive health coverage</h2>
-            <p class="insurance-card-p">
-              We care about our team’s well being — like, a lot. That's why we
-              offer premium health, dental, and vision.
+          <div class="card">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <h2 class="card-h">Career development</h2>
+            <p class="card-p">
+              From online classes and certifications to in-person training, we
+              offer resources for ongoing personal and career growth.
             </p>
           </div>
-          <div class="insurance-card">
-            <i class="fa-solid fa-hospital"></i>
-            <h2 class="insurance-card-h">Comprehensive health coverage</h2>
-            <p class="insurance-card-p">
-              We care about our team’s well being — like, a lot. That's why we
-              offer premium health, dental, and vision.
-            </p>
-          </div>
+        </div>
+      </section>
+      <section class="section-opening section-margin-bottom-m section-sp">
+        <div>
+          <h2 class="opening-h">Open Positions</h2>
+        </div>
+
+        <div class="tab">
+          <button
+            class="tablinks"
+            onclick="openPosting(event, 'All')"
+            id="defaultOpen"
+          >
+            All
+          </button>
+
+          <button class="tablinks" onclick="openPosting(event, 'Finance')">
+            Finance
+          </button>
+          <button class="tablinks" onclick="openPosting(event, 'Sales')">
+            Sales
+          </button>
+          <button class="tablinks" onclick="openPosting(event, 'Marketing')">
+            Marketing
+          </button>
+          <button class="tablinks" onclick="openPosting(event, 'Operation')">
+            Operation
+          </button>
+        </div>
+
+        <div id="All" class="tabcontent">
+          <h3>Finance</h3>
+          <a href="#">Reimbursement Coordinator </a>
+          <a href="#">EDI Specialist.</a>
+          <a href="#">Data Analyst</a>
+          <h3>Marketing</h3>
+          <a href="#">Web Developer</a>
+        </div>
+
+        <div id="Finance" class="tabcontent">
+          <h3>Finance</h3>
+          <a href="#">Reimbursement Coordinator </a>
+          <a href="#">EDI Specialist.</a>
+          <a href="#">Data Analyst</a>
+        </div>
+
+        <div id="Sales" class="tabcontent">
+          <p>We currently have no openings</p>
+        </div>
+
+        <div id="Marketing" class="tabcontent">
+          <h3>Marketing</h3>
+          <a href="#">Web Developer</a>
+        </div>
+
+        <div id="Operation" class="tabcontent">
+          <p>We currently have no openings</p>
         </div>
       </section>
     </main>
