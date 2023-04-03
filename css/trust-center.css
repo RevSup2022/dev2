@@ -46,7 +46,8 @@
 .fa-shield-halved,
 .fa-cloud,
 .fa-clipboard-check,
-.fa-scale-balanced {
+.fa-scale-balanced,
+.fa-earth-americas {
   font-size: 5rem;
   color: #0f81b1;
   padding-bottom: 2rem;
@@ -66,4 +67,64 @@
   font-weight: 400;
   line-height: 1.85;
   text-align: center;
+}
+
+/* Certificate Section */
+.certificate-h-box {
+  display: flex;
+  justify-content: center;
+}
+
+.certificate-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  align-items: center;
+  letter-spacing: 0.2rem;
+  border-bottom: 1px solid #3a75a4;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+}
+
+.certificate-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 4.5rem;
+  column-gap: 10rem;
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22.5rem;
+  padding-bottom: 2rem;
+}
+.certificate-card-img-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 24.5rem;
+  padding-bottom: 2rem;
+}
+
+.certificate-card-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.certificate-card-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.85;
 }

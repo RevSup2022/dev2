@@ -51,7 +51,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 3.2rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2px;
   padding-bottom: 3rem;
 }
 
@@ -175,7 +175,11 @@
 } */
 
 .step-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 15rem;
+  height: auto;
 
   /* z-index:10; */
 }

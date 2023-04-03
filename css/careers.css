@@ -1,3 +1,48 @@
+/*  */
+.hero-box {
+}
+
+.hero-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-img {
+  height: 60rem;
+  width: 55rem;
+}
+
+.hero-text {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.hero-text-h1 {
+  font-size: 7rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+}
+
+.hero-text-h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 7rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero-text-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.hero-text-button {
+  border-style: solid 1px #1e5892;
+  background-color: #0f76b13b;
+  color: #1e5892;
+  border-radius: 3px;
+}
+
+/* Openings */
 .card-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -114,65 +159,4 @@
   font-family: "Roboto", Sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-}
-
-/*  */
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.wrapper {
-  height: 500px;
-  animation: 1s ease-out 0s 1 slideInLeft;
-  background-image: url(../webp/BG3.webp);
-  background-size: cover;
-}
-
-.hero-h {
-  font-family: "Roboto", Sans-serif;
-  font-size: 5rem;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  padding-top: 22rem;
-  letter-spacing: 0.2rem;
-}
-
-@keyframes slideInRight {
-  0% {
-    transform: translateX(+100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.wrapper-1 {
-  height: 500px;
-  animation: 1s ease-out 0s 1 slideInRight;
-  background-image: url(../webp/BG4.webp);
-  background-size: cover;
-}
-
-.hero-h-2 {
-  font-family: "Roboto", Sans-serif;
-  font-size: 5rem;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 0.2rem;
-  padding-bottom: 2rem;
-  padding-top: 12rem;
-}
-
-.hero-p {
-  font-family: "Roboto", Sans-serif;
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  line-height: 1.85;
 }

@@ -1,0 +1,60 @@
+/*  */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.wrapper {
+  height: 500px;
+  animation: 1s ease-out 0s 1 slideInLeft;
+  background-image: url(../webp/Coding-BG1.webp);
+  background-size: cover;
+}
+
+.hero-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 22rem;
+  letter-spacing: 0.2rem;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(+100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.wrapper-1 {
+  height: 500px;
+  animation: 1s ease-out 0s 1 slideInRight;
+  background-image: url(../webp/Coding-BG2.webp);
+  background-size: cover;
+}
+
+.hero-h-2 {
+  font-family: "Roboto", Sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding-bottom: 2rem;
+  padding-top: 12rem;
+}
+
+.hero-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 1.85;
+}

@@ -1,6 +1,7 @@
 .revenue-section-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 15rem;
 }
 
 .header-revenue-cycle-consulting-h2 {
@@ -26,12 +27,11 @@
 
 .revenue-img-box {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .revenue-img {
   width: 40rem;
-  padding: 2rem;
 }
 
 /* CONTACT SECTION */

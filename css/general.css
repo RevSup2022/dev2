@@ -146,7 +146,7 @@ body {
   top: 100%;
   background-color: #ffffff;
   border: none;
-  transition: ;
+  transition: 0.3s;
 }
 
 /* Drop Down positioning */
@@ -302,6 +302,11 @@ body {
   color: #000;
 }
 
+.legend,
+.ar a {
+  color: #ffffff;
+}
+
 .section {
   padding: 0 10rem;
 }
@@ -344,6 +349,10 @@ body {
 
 .section-margin-bottom-l {
   margin-bottom: 12rem;
+}
+
+.section-margin-bottom-sp {
+  margin-bottom: -4.4rem;
 }
 
 /* Partners Section */
