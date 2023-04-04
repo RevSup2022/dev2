@@ -1,8 +1,5 @@
 /*  */
 .hero-box {
-}
-
-.hero-box {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 7rem;
@@ -43,6 +40,14 @@
   color: #1e5892;
   border-radius: 3px;
   padding: 1.5rem 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.careers-h {
+  padding: 2rem 3.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 /* Openings */
@@ -162,4 +167,39 @@
   font-family: "Roboto", Sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+/*  */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.wrapper {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(+100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.wrapper-1 {
+  animation: 1s ease-out 0s 1 slideInRight;
+}
+
+/*  */
+.careers-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  background-color: #efefef;
 }
