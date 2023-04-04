@@ -4,7 +4,8 @@
 
 .hero-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
+  column-gap: 7rem;
 }
 
 .hero-img {
@@ -12,14 +13,13 @@
   width: 55rem;
 }
 
-.hero-text {
-  font-family: "Trebuchet MS", sans-serif;
-}
-
 .hero-text-h1 {
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 7rem;
   font-weight: normal;
   letter-spacing: 0.2rem;
+  padding-bottom: 2rem;
+  padding-top: 10rem;
 }
 
 .hero-text-h2 {
@@ -27,19 +27,22 @@
   font-weight: 900;
   font-size: 7rem;
   letter-spacing: 0.2rem;
+  padding-bottom: 2rem;
 }
 
 .hero-text-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  padding-bottom: 3rem;
 }
 
 .hero-text-button {
-  border-style: solid 1px #1e5892;
+  border: solid 1px #1e5892;
   background-color: #0f76b13b;
   color: #1e5892;
   border-radius: 3px;
+  padding: 1.5rem 3rem;
 }
 
 /* Openings */
