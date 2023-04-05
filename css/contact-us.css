@@ -1,6 +1,11 @@
+.contact-section {
+  padding-bottom: 12.5rem;
+}
+
 .contact-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 8.5rem;
 }
 
 .contact-info-box {
@@ -20,12 +25,28 @@
   line-height: 1.85;
 }
 
-.contact-card {
-  display: flex;
-  flex-direction: column;
+.inner-grid {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  column-gap: 6rem;
 }
 
-.fa-building {
+.fa-building,
+.fa-globe,
+.fa-share-nodes {
+  font-size: 4rem;
+  padding-top: 3.5rem;
+}
+
+.fa-brands {
+  font-size: 4rem;
+  color: #000;
+  padding-left: 0.5rem;
+}
+
+.contact-card {
+  padding: 3.5rem 0;
+  border-bottom: 1px solid #000;
 }
 
 .contact-card-text-box {
@@ -37,12 +58,14 @@
   font-family: "Roboto", Sans-serif;
   font-size: 2rem;
   font-weight: 700;
+  padding-bottom: 2rem;
 }
 
 .contact-card-text-strong {
   font-family: "Roboto", Sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
+  line-height: 1.85;
 }
 
 .contact-card-text-p {
@@ -50,4 +73,91 @@
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.85;
+}
+
+.contact-num {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  text-decoration: none;
+  color: #1d7ab0;
+}
+
+/*  */
+.form-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+.form-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  padding-bottom: 5rem;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 5rem 2rem 7rem 2rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.contact-form label {
+  display: block;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: "Roboto", Sans-serif;
+  border: none;
+  color: inherit;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input::placeholder {
+  color: #aaa;
+}
+
+.message {
+  grid-column: -3/ -1;
+  padding-bottom: 2rem;
+}
+
+textarea {
+  width: 100%;
+  height: 10rem;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.btn {
+  grid-column: -3/ -1;
+  width: 100%;
+  background-color: #1284b1;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  padding: 1.2rem 0;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.5rem;
 }

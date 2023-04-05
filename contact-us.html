@@ -47,7 +47,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <title>End-to-End RCM</title>
+    <title>Contact</title>
   </head>
   <body>
     <header class="header">
@@ -65,7 +65,7 @@
             <div class="dropdown-menu">
               <ul>
                 <li class="solutions-dropdown">
-                  <a class="blue-highlight" href="#">End-to-End RCM</a>
+                  <a class="blue-hov" href="#">End-to-End RCM</a>
                 </li>
                 <li>
                   <a class="blue-hov" href="revenue-cycle-consulting.html"
@@ -121,7 +121,7 @@
 
             <div class="dropdown-menu">
               <ul>
-                <li><a class="blue-hov" href="#">About Us</a></li>
+                <li><a class="blue-hov" href="about-us.html">About Us</a></li>
                 <li>
                   <a class="blue-hov" href="trust-center.html">Trust Center</a>
                 </li>
@@ -129,7 +129,7 @@
                   <a class="blue-hov" href="careers.html">Careers</a>
                 </li>
                 <li>
-                  <a class="blue-hov" href="contact-us.html">Contacts</a>
+                  <a class="blue-highlight" href="contact-us.html">Contacts</a>
                 </li>
               </ul>
             </div>
@@ -148,9 +148,9 @@
         <div class="legend">
           <a href="./index.html">Home</a>
           <a>/</a>
-          <a>Solution</a>
+          <a>Company</a>
           <a>/</a>
-          <a class="blue-highlight" href="#">End-to-End RCM</a>
+          <a class="blue-highlight" href="#">Contact</a>
         </div>
       </section>
 
@@ -162,24 +162,165 @@
               We're here to answer any questions about Revenue Cycle Management,
               and how Revenulytics can help your organization.
             </p>
-            <div class="contact-card">
+            <div class="inner-grid">
               <i class="fa-solid fa-building"></i>
-              <div class="contact-card-box">
+              <div class="contact-card">
                 <h2 class="contact-card-text-h">Headquarters</h2>
                 <stong class="contact-card-text-strong">Pleasanton</stong>
                 <p class="contact-card-text-p">
-                  6200 Stoneridge Mall Rd, Suite 300 Pleasanton, CA 94588
-                  +1(888)987-0438
+                  6200 Stoneridge Mall Rd, Suite 300 <br />Pleasanton, CA 94588
                 </p>
+                <a class="contact-num" href="tel:+1(888)987-0438"
+                  >+1(888)987-0438</a
+                >
               </div>
-              <div>
-                <h2>Global Offices</h2>
-                <h3>Manila</h3>
+              <i class="fa-solid fa-globe"></i>
+              <div class="contact-card">
+                <div class="contact-card-box">
+                  <h2 class="contact-card-text-h">Global Offices</h2>
+                  <stong class="contact-card-text-strong">Manila</stong>
+                </div>
               </div>
-              <div><h2>Social Media</h2></div>
+              <i class="fa-solid fa-share-nodes"></i>
+              <div class="contact-card">
+                <div class="contact-card-box">
+                  <h2 class="contact-card-text-h">Social Media</h2>
+                  <a href="#"
+                    ><i class="fa-brands fa-linkedin" style="color: #0274b3"></i
+                  ></a>
+                  <a href="#"
+                    ><i
+                      class="fa-brands fa-square-facebook"
+                      style="color: #38569e"
+                    ></i
+                  ></a>
+                  <a href="#"
+                    ><i
+                      class="fa-brands fa-square-twitter"
+                      style="color: #1da1f2"
+                    ></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="contact-form-box"></div>
+          <div class="contact-form-box">
+            <h2 class="form-h">How may we be of assistance?</h2>
+            <p class="form-p">
+              For sales inquiries, please complete the form below, or call
+              <a class="contact-num" href="tel:+1(888)987-0438"
+                >+1(888)987-0438</a
+              >
+            </p>
+            <form class="contact-form">
+              <div>
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  type="text"
+                  placeholder="John"
+                  name="first-name"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input
+                  id="last-name"
+                  type="text"
+                  placeholder="Smith"
+                  name="last-name"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="job-title">Job Title</label>
+                <input
+                  id="job-title"
+                  type="text"
+                  placeholder="Web Developer"
+                  name="job-title"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="company">Company</label>
+                <input
+                  id="company"
+                  type="text"
+                  placeholder="Jones LLC"
+                  name="Company"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="number">Number</label>
+                <input
+                  id="number"
+                  type="tel"
+                  placeholder="Jones LLC"
+                  name="number"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where"
+                  >Organization Principle Activity</label
+                >
+                <select id="select-where" name="select-where" required>
+                  <option value="">Select</option>
+                  <option value="Cancer Center">Cancer Center</option>
+                  <option value="Clinic">Clinic</option>
+                  <option value="Diagnostic Imaging">Diagnostic Imaging</option>
+                  <option value="Hospital/Health System">
+                    Hospital/Health System
+                  </option>
+                  <option value="Laboratory">Laboratory</option>
+                  <option value="Nursing Home">Nursing Home</option>
+                  <option value="Radiology">Radiology</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="select-where">Solution Interest</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Select</option>
+                  <option value="End-to-End Revenue Cycle Management">
+                    End-to-End Revenue Cycle Management
+                  </option>
+                  <option value="Revenue Cycle Consulting">
+                    Revenue Cycle Consulting/option>
+                  </option>
+                  <option value="Insurance A/R Follow-UP">
+                    Insurance A/R Follow-UP
+                  </option>
+                  <option value="Credentailing/Contracting">
+                    Credentailing/Contracting
+                  </option>
+                  <option value="Denial Management">Denial Management</option>
+                  <option value="Coding Services">Coding Services</option>
+                </select>
+              </div>
+
+              <div class="message">
+                <p><label for="message"> Message </label></p>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button class="btn btn--form">Submit</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -242,7 +383,7 @@
           <div class="footer-nav">
             <h3 class="footer-subheading">Company</h3>
             <ul class="footer-list">
-              <li><a class="footer-link" href="#">About Us</a></li>
+              <li><a class="footer-link" href="about-us.html">About Us</a></li>
               <li>
                 <a class="footer-link" href="careers.html">Careers</a>
               </li>

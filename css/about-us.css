@@ -1,0 +1,22 @@
+.hero {
+  padding: 0 13rem;
+  height: 865px;
+  background-image: url(../webp/about_BG_v2.webp);
+  background-size: cover;
+}
+
+/*  */
+.info-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 10rem;
+}
+
+.values-h {
+  text-align: center;
+}
+/*  */
+.values-card-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
