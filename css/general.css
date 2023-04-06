@@ -315,6 +315,11 @@ body {
   padding: 0 16rem;
 }
 
+.section-sp-m {
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
 .header-buffer {
   margin-top: 9.8rem !important;
 }

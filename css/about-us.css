@@ -21,6 +21,16 @@
   letter-spacing: 2px;
 }
 
+.hero-video {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  height: 66.5rem;
+  align-items: center;
+}
+
 /*  */
 .info-card-box {
   display: grid;
@@ -72,7 +82,13 @@
   align-items: center;
 }
 
-.fa-users {
+.fa-users,
+.fa-person-walking,
+.fa-screwdriver-wrench,
+.fa-diagram-project,
+.fa-up-right-from-square,
+.fa-magnifying-glass {
+  color: #0f81b1;
   font-size: 5rem;
   padding-bottom: 3rem;
 }
@@ -90,4 +106,49 @@
   font-weight: 400;
   text-align: center;
   line-height: 1.85;
+}
+
+/*  */
+.cta-section {
+  background-image: url(../webp/hq-1024x448.webp);
+  background-size: cover;
+  height: 448px;
+  background-attachment: fixed;
+}
+
+.cta-inner {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+}
+
+.cta-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 4.8rem;
+  font-weight: 600;
+  padding-top: 9rem;
+  padding-bottom: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.cta-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  line-height: 1.85;
+}
+
+.cta-button {
+  display: inline-block;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  margin-bottom: 2.5rem;
+  background: #2f83bf;
+  color: #fff;
+  text-decoration: none;
 }

@@ -1,0 +1,161 @@
+.partner-section {
+  background-color: #f0f0f0;
+  padding: 18rem 16rem 4rem 16rem;
+}
+
+.partner-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.partner-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.partner-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+/*  */
+
+.form-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 9rem;
+}
+
+.form-img-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+.form-img-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.65;
+  padding-bottom: 2rem;
+}
+
+.form-img {
+  display: block;
+  width: 55rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FORM */
+
+.form {
+  position: absolute;
+  left: 80rem;
+  top: 24rem;
+}
+
+.form-title {
+  background-color: #a8a8a8;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  padding: 1rem 0 1rem 0;
+}
+
+.form-title span {
+  margin-right: 2rem;
+  padding-left: 3px;
+  background-color: #1284b1;
+}
+
+.form-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+.form-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  padding-bottom: 5rem;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 5rem 2rem 5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.contact-form label {
+  display: block;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: "Roboto", Sans-serif;
+  border: none;
+  color: inherit;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input::placeholder {
+  color: #aaa;
+}
+
+.email {
+  grid-column: -3 / -1;
+}
+
+.message {
+  grid-column: -3/ -1;
+  padding-bottom: 2rem;
+}
+
+textarea {
+  width: 46.2rem;
+  height: 10rem;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.btn {
+  grid-column: -3/ -1;
+  width: 100%;
+  background-color: #1284b1;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  padding: 1.2rem 0;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.5rem;
+}
