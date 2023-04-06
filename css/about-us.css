@@ -5,18 +5,89 @@
   background-size: cover;
 }
 
+.hero-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.hero-p {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
 /*  */
-.info-card {
+.info-card-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 5rem;
   padding-bottom: 10rem;
 }
 
-.values-h {
+.info-card {
   text-align: center;
+  padding: 3rem 0 2rem 0;
+  box-shadow: 2px 2px 5px 3px
+    rgba(187.71195652173915, 207.7865075614367, 217.50000000000003, 0.15);
+}
+
+.info-card-h {
+  font-family: "Roboto", sans-serif;
+  font-size: 6.5rem;
+  font-weight: 600;
+  color: #0f81b1;
+  padding-bottom: 2rem;
+}
+
+.info-card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.values-h {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5.5rem;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding-bottom: 5rem;
 }
 /*  */
 .values-card-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 14rem;
+  row-gap: 4rem;
+}
+
+.values-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-users {
+  font-size: 5rem;
+  padding-bottom: 3rem;
+}
+
+.values-card-h {
+  font-family: "Roboto", Sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.values-card-p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.85;
 }
