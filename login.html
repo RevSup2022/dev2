@@ -34,11 +34,10 @@
     />
 
     <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/insurance-ar-follow-up.css" />
+    <link rel="stylesheet" href="css/login-register.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
     <script defer src="js/script.js"></script>
-    <script defer src="js/opening.js"></script>
 
     <link
       rel="stylesheet"
@@ -48,7 +47,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <title>Insurance A/R Follow-Up</title>
+    <title>Partner Program</title>
   </head>
   <body>
     <header class="header">
@@ -74,7 +73,7 @@
                   >
                 </li>
                 <li>
-                  <a class="blue-highlight" href="insurance-ar-follow-up.html"
+                  <a class="blue-hov" href="insurance-ar-follow-up.html"
                     >Insurance A/R Follow-up</a
                   >
                 </li>
@@ -147,126 +146,20 @@
     </header>
 
     <main>
-      <section class="section-margin-bottom-sp header-buffer section-legend">
-        <div class="legend ar">
-          <a href="./index.html">Home</a>
-          <a>/</a>
-          <a>Solution</a>
-          <a>/</a>
-          <a class="blue-highlight" href="insurance-ar-follow-up.html"
-            >Insurance A/R Follow-up</a
-          >
-        </div>
-      </section>
-
-      <section class="hero-section">
-        <div class="wrapper section-sp">
-          <div id="slide"><h2 class="hero-h">Insurance A/R Follow-Up</h2></div>
-        </div>
-        <div class="wrapper-1 section-sp">
-          <div id="slide">
-            <h2 class="hero-h-2">Accounts Receivable</h2>
-            <p class="hero-p">
-              We believe success depends on the happiness of our employees, and
-              we strive to ensure everyone has the opportunities they need to
-              thrive professionally and personally.
-            </p>
+      <section class="form-section">
+        <form action class="contact-form">
+          <h2 class="form-h">LOG IN</h2>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required />
           </div>
-        </div>
-      </section>
 
-      <section class="section-sp section-margin-bottom-m section-padding-top-s">
-        <div class="card-box">
-          <div class="card">
-            <i class="fa-solid fa-people-roof"></i>
-            <h2 class="card-h">Paid family leave</h2>
-            <p class="card-p">
-              We encourage all parents to spend time with their children whether
-              or not they are the primary caregiver.
-            </p>
+          <div>
+            <label for="first-name">Password</label>
+            <input id="password" type="password" name="password" required="" />
           </div>
-          <div class="card">
-            <i class="fa-solid fa-hospital"></i>
-            <h2 h2 class="card-h">Comprehensive health coverage</h2>
-            <p class="card-p">
-              We care about our team’s well being — like, a lot. That's why we
-              offer premium health, dental, and vision.
-            </p>
-          </div>
-          <div class="card">
-            <i class="fa-solid fa-people-group"></i>
-            <h2 class="card-h">Team activities & offsites</h2>
-            <p class="card-p">
-              We value having fun and spending time as a team. Regular company
-              activities, meetups, and offsites help us stay connected.
-            </p>
-          </div>
-          <div class="card">
-            <i class="fa-solid fa-arrow-trend-up"></i>
-            <h2 class="card-h">Career development</h2>
-            <p class="card-p">
-              From online classes and certifications to in-person training, we
-              offer resources for ongoing personal and career growth.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="section-opening section-margin-bottom-m section-sp">
-        <div>
-          <h2 class="opening-h">Open Positions</h2>
-        </div>
-
-        <div class="tab">
-          <button
-            class="tablinks"
-            onclick="openPosting(event, 'All')"
-            id="defaultOpen"
-          >
-            All
-          </button>
-
-          <button class="tablinks" onclick="openPosting(event, 'Finance')">
-            Finance
-          </button>
-          <button class="tablinks" onclick="openPosting(event, 'Sales')">
-            Sales
-          </button>
-          <button class="tablinks" onclick="openPosting(event, 'Marketing')">
-            Marketing
-          </button>
-          <button class="tablinks" onclick="openPosting(event, 'Operation')">
-            Operation
-          </button>
-        </div>
-
-        <div id="All" class="tabcontent">
-          <h3>Finance</h3>
-          <a href="#">Reimbursement Coordinator </a>
-          <a href="#">EDI Specialist.</a>
-          <a href="#">Data Analyst</a>
-          <h3>Marketing</h3>
-          <a href="#">Web Developer</a>
-        </div>
-
-        <div id="Finance" class="tabcontent">
-          <h3>Finance</h3>
-          <a href="#">Reimbursement Coordinator </a>
-          <a href="#">EDI Specialist.</a>
-          <a href="#">Data Analyst</a>
-        </div>
-
-        <div id="Sales" class="tabcontent">
-          <p>We currently have no openings</p>
-        </div>
-
-        <div id="Marketing" class="tabcontent">
-          <h3>Marketing</h3>
-          <a href="#">Web Developer</a>
-        </div>
-
-        <div id="Operation" class="tabcontent">
-          <p>We currently have no openings</p>
-        </div>
+          <button class="btn btn--form">Submit</button>
+        </form>
       </section>
     </main>
 
@@ -276,9 +169,7 @@
           <div class="footer-nav">
             <h3 class="footer-subheading">Products</h3>
             <ul class="footer-list">
-              <li>
-                <a class="footer-link" href="end-to-end.html">End-to-End RCM</a>
-              </li>
+              <li><a class="footer-link" href="#">End-to-End RCM</a></li>
               <li>
                 <a class="footer-link" href="revenue-cycle-consulting.html"
                   >Revenue Cycle Consulting</a
