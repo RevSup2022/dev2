@@ -46,12 +46,26 @@
 }
 
 .btn {
-  width: ;
-  background-color: #1284b1;
-  color: #ffffff;
+  background-color: #03b4c6;
+  color: rgb(255, 255, 255);
   border-radius: 3px;
   border: none;
   padding: 1rem 2.2rem;
   font-family: "Roboto", Sans-serif;
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #1284b1;
+}
+
+.register-p {
+  font-size: 1.8rem;
+  font-family: "Roboto", Sans-serif;
+  margin-top: 3.5rem;
+}
+
+.register-p a {
+  text-decoration: none;
+  color: #03b4c6;
 }

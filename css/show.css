@@ -1,0 +1,96 @@
+.blog-legend {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.blog-legend a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #2f71a5;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  margin-right: 1.4rem;
+}
+
+.blog-legend-spacer {
+  border-left: 1px solid #000;
+  margin: 0 1.8rem 0 0;
+  height: 2.5rem;
+}
+
+.date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+}
+
+.fa-calendar {
+  font-size: 1.4rem;
+}
+
+.title-h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 3.6rem;
+  padding-bottom: 2rem;
+}
+
+.summary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  line-height: 1.55;
+  text-indent: 3rem;
+}
+
+.fa-linkedin,
+.fa-envelope {
+  font-size: 1.6rem;
+  background-color: #2f71a5;
+  padding: 0.9rem;
+  border-radius: 50%;
+  margin-bottom: 4.5rem;
+}
+
+.fa-linkedin {
+  margin-right: 2rem;
+}
+
+.author {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #2f71a5;
+  padding-bottom: 1rem;
+}
+
+.position {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.long-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.55;
+  text-indent: 3rem;
+}
