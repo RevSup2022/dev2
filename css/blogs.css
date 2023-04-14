@@ -87,7 +87,18 @@ article {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-bottom: 2rem;
+}
+
+.tag {
+  margin-left: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3a76a1;
+  border-radius: 4px;
+  padding: 0.7rem 1.4rem;
+  font-size: 1.2rem;
 }
 
 .article-text {
@@ -114,10 +125,12 @@ article {
   font-weight: 500;
   line-height: 1.5;
   color: #2f71a5;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #2f71a5;
 }
 
 .date {
+  margin-top: 3px;
   font-size: 12px;
   padding: 1rem 2rem;
   border-top: 1px solid #000;
