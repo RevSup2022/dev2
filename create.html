@@ -34,7 +34,7 @@
     />
 
     <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/login-register.css" />
+    <link rel="stylesheet" href="css/create.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
     <script defer src="js/script.js"></script>
@@ -47,7 +47,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <title>Register</title>
+    <title>Create</title>
   </head>
   <body>
     <header class="header">
@@ -147,28 +147,68 @@
 
     <main>
       <section class="form-section">
-        <form action class="contact-form">
-          <h2 class="form-h">REGISTER</h2>
+        <form action class="blog-form">
+          <h2 class="form-h">Create Blog</h2>
           <div>
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" required />
+            <label for="title">Title</label>
+            <input id="title" type="text" name="title" required />
           </div>
 
+          <div>
+            <label for="summary">Summary</label>
+            <textarea
+              id="summary"
+              type="text"
+              name="summary"
+              required=""
+            ></textarea>
+          </div>
+
+          <div>
+            <label for="author">Author</label>
+            <input id="author" type="text" name="author" required />
+          </div>
+          <div>
+            <label for="job-title">Job title</label>
+            <input id="job-title" type="text" name="job-title" required />
+          </div>
+
+          <div>
+            <label for="linkedin">LinkedIn</label>
+            <input id="linkedin" type="url" name="linkedin" required />
+          </div>
           <div>
             <label for="email">Email</label>
             <input id="email" type="email" name="email" required />
           </div>
 
           <div>
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password" required="" />
+            <label for="image">Title Image</label>
+            <input id="image" type="file" name="image" required />
           </div>
 
           <div>
-            <label for="password">Confirm Password</label>
-            <input id="password" type="password" name="password" required="" />
+            <label for="blog">Blog</label>
+            <textarea id="blog" type="text" name="blog" required=""></textarea>
           </div>
-          <button class="btn btn--form">Sign Up</button>
+
+          <div>
+            <label for="select-where">Tags</label>
+            <select id="tags" name="tags" required="">
+              <option value="">Select</option>
+              <option value="Coding">Coding</option>
+              <option value="Covid-19">Covid-19</option>
+              <option value="EHR">EHR</option>
+              <option value="Financial-Analysis">Financial Analysis</option>
+              <option value="Medical-Billing">Medical Billing</option>
+              <option value="Patient-Engagement">Patient Engagement</option>
+              <option value="rcm">RCM</option>
+              <option value="telehealth">Telehealth</option>
+            </select>
+          </div>
+
+          <button class="btn btn--form">Create Blog</button>
+          <a class="back-lnk" href="/">Back</a>
         </form>
       </section>
     </main>
